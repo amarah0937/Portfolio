@@ -1,0 +1,126 @@
+/* Page styling */
+header {
+    background-color: pink;
+    color:black
+}
+
+body {
+    font-family: "Comic Sans MS", "Segoe Print", "Bradley Hand", "Chalkboard";
+}
+
+footer {
+    background-color: rgb(77, 26, 126);
+    color: black;
+      width: 100%;
+    height: auto;
+    display: block;
+    position: static !important;
+    bottom: auto !important;
+}
+
+
+/* ============= Link and header styling ================= */
+
+#logo {
+    width: 225px;
+    height: 70px;
+    display:inline;
+}
+
+.mainNav { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #838080;
+}
+
+.mainNav li a, .objbtn {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.mainNav li {
+  float: left;
+  border-left: 1px solid #bbbbbb;
+}
+
+.mainNav li:last-child {
+  border-right: 1px solid #bbbbbb;
+}
+
+
+
+
+/* Change default link color to black*/
+a:link {
+    color: black;
+    /* float: right; */
+}
+
+a:visited {
+    color: black;
+}
+
+/* Change link text color when mouse hovers over it*/
+a:hover, a:active {
+    color: white;
+}
+
+.mainNav li a:active, li a:hover, .objdown:hover .objbtn {
+    background-color: blueviolet;
+}
+
+li.objdown {
+  display: inline-block;
+}
+
+/* Let's get connected hover message
+#socialsLink:hover {
+    
+}
+ */
+
+
+/* Objs dropdown:
+    <a href="Obj1.html">Objective 1</a>
+    <a href="Obj2.html">Objective 2</a>
+    <a href="Obj3.html">Objective 3</a>
+    <a href="Obj4.html">Objective 4</a>
+    <a href="Obj5.html">Objective 5</a>
+    <a href="Obj6.html">Objective 6</a>
+*/
+
+ .dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover {
+  background-color: #3e8e41;
+}

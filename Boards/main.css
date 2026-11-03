@@ -1,0 +1,53 @@
+/* ======= Intro Styling ========== */
+.intro {
+    background-color: pink;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 5 pink;
+    margin: 3%;
+    padding: 3%;
+}
+
+section h1{
+    margin: auto auto;
+}
+
+/* ======== Gallery Styling ========== */
+
+.objs-item {
+    margin-bottom: 3%;
+    width: 30%;
+    background-color: pink;
+    margin-right: 5%;
+    padding: 3%;
+}
+
+.gallery, .objs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.gallery-item {
+    margin: auto;
+    margin-bottom: 5%;
+    border: 1px solid #ccc;
+    width: 350px;
+    height: 475px;
+}
+
+.gallery-item img {
+    width: 100%;
+    padding-bottom: 5%;
+    margin: 0;
+}
+
+.desc {
+    padding: 2%;
+    text-align: center;
+}
+
+
+
