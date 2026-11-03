@@ -11,11 +11,11 @@ body {
 footer {
     background-color: rgb(77, 26, 126);
     color: black;
-      width: 100%;
+    width: 100%;
     height: auto;
     display: block;
-    position: static !important;
-    bottom: auto !important;
+    position: static;
+    bottom: auto;
 }
 
 
@@ -27,7 +27,7 @@ footer {
     display:inline;
 }
 
-.mainNav { 
+.mainNav, .footernNav { 
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -36,14 +36,15 @@ footer {
   background-color: #838080;
 }
 
-.mainNav li a, .objbtn {
+.mainNav li a, .footernNav li a {
   display: inline-block;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-.mainNav li {
+
+.mainNav li, .footernNav li {
   float: left;
   border-left: 1px solid #bbbbbb;
 }
@@ -51,8 +52,6 @@ footer {
 .mainNav li:last-child {
   border-right: 1px solid #bbbbbb;
 }
-
-
 
 
 /* Change default link color to black*/
@@ -77,22 +76,6 @@ a:hover, a:active {
 li.objdown {
   display: inline-block;
 }
-
-/* Let's get connected hover message
-#socialsLink:hover {
-    
-}
- */
-
-
-/* Objs dropdown:
-    <a href="Obj1.html">Objective 1</a>
-    <a href="Obj2.html">Objective 2</a>
-    <a href="Obj3.html">Objective 3</a>
-    <a href="Obj4.html">Objective 4</a>
-    <a href="Obj5.html">Objective 5</a>
-    <a href="Obj6.html">Objective 6</a>
-*/
 
  .dropdown {
   position: relative;
@@ -119,8 +102,4 @@ li.objdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-.dropdown:hover {
-  background-color: #3e8e41;
 }
