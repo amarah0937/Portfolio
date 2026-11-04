@@ -1,0 +1,114 @@
+/* Page styling */
+header {
+    background-color: pink;
+    color:black
+}
+
+body {
+    font-family: "Comic Sans MS", "Segoe Print", "Bradley Hand", "Chalkboard";
+}
+
+footer {
+    background-color: rgb(77, 26, 126);
+    color: black;
+    width: 100%;
+    height: auto;
+    display: block;
+    position: static;
+    bottom: auto;
+}
+
+
+/* ============= Link and header styling ================= */
+
+#logo {
+    width: 225px;
+    height: 70px;
+    display:inline;
+}
+
+.mainNav, .footernNav { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #838080;
+}
+
+.mainNav li a, .footernNav li a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.mainNav li, .footernNav li {
+  float: left;
+  border-left: 1px solid #bbbbbb;
+}
+
+.mainNav li:last-child {
+  border-right: 1px solid #bbbbbb;
+}
+
+
+/* Change default link color to black*/
+a:link {
+    color: black;
+    /* float: right; */
+}
+
+a:visited {
+    color: black;
+}
+
+/* Change link text color when mouse hovers over it*/
+a:hover, a:active {
+    color: white;
+}
+
+.mainNav li a:active, li a:hover {
+    background-color: blueviolet;
+}
+
+/* ================== FIXED DROPDOWN STYLING ================== */
+
+/* Make the parent li the anchor point for the absolute dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* 1. Hide the dropdown menu by default */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9; 
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%; /* Forces the menu to open right below the "Objectives" link */
+    left: 0;
+}
+
+/* 2. Style the links inside the dropdown */
+.dropdown-content a {
+    color: black !important; /* Forces dropdown links to stay readable instead of turning white */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left; /* Aligns dropdown text nicely to the left */
+}
+
+/* 3. Change background color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: blueviolet !important;
+    color: white !important;
+}
+
+/* 4. Show the dropdown menu when hovering over the parent LI */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
