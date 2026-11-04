@@ -69,7 +69,7 @@ a:hover, a:active {
     color: white;
 }
 
-.mainNav li a:active, li a:hover, .objdown:hover .objbtn {
+.mainNav li a:active, li a:hover, .objdown:hover {
     background-color: blueviolet;
 }
 
