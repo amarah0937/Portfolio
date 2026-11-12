@@ -16,6 +16,8 @@ footer {
     display: block;
     position: static;
     bottom: auto;
+    margin: none;
+    margin-top: 25%;
 }
 
 
