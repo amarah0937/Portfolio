@@ -58,5 +58,9 @@ section h1{
     display: inline;
 }
 
+.sup-item iframe.ogdb_iframe {
+    max-height: 400px !important; /* Caps the height at 400px */
+    overflow-y: auto !important;  /* Enables vertical scrolling inside the frame */
+}
 
 
