@@ -5,6 +5,7 @@ header {
 }
 
 body {
+  display: grid;
     margin: 0;
     padding: 0;
     font-family: "Comic Sans MS", "Segoe Print", "Bradley Hand", "Chalkboard";
@@ -41,23 +42,6 @@ footer {
   background-color: #838080;
 }
 
-.footerNav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 5%;
-}
-
-.footerNav li {
-  justify-content: center;
-}
-
-.footerNav li a {
-  display: block;
-  text-align: center;
-  color: white;
-}
-
 .mainNav li a {
   display: inline-block;
   text-align: center;
@@ -73,6 +57,28 @@ footer {
 
 .mainNav li:last-child {
   border-right: 1px solid #bbbbbb;
+}
+
+.footerNav, .socialsNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5%;
+}
+
+.fNav, .socials {
+  display:flex;
+  justify-content: center;
+}
+
+.footerNav li, .socials li {
+  justify-content: center;
+  text-align: center;
+}
+
+.footerNav li a, .socials li a {
+  text-align: center;
+  color: white;
 }
 
 
