@@ -1,9 +1,8 @@
 /* ======= Intro Styling ========== */
 .intro {
-    background-color: pink;
+    background-color:  pink;
     justify-content: center;
     text-align: center;
-    box-shadow: 0px 0px 5 pink;
     margin: 3%;
     padding: 3%;
 }
@@ -16,7 +15,7 @@ section h1{
 
 .objs-item {
     width: 30%;
-    background-color: pink;
+    box-shadow: 0px 4px 12px pink;
     margin: 3%;
     padding: 3%;
 }
@@ -33,7 +32,7 @@ section h1{
     margin: auto;
     margin-bottom: 5%;
     border: 1px solid #ccc;
-    width: 350px;
+    width: 400px;
     height: 475px;
 }
 
@@ -47,6 +46,18 @@ section h1{
 .desc {
     padding: 2%;
     text-align: center;
+}
+
+#marketing {
+    margin: 2%;
+    padding: 2%;
+    box-shadow: 0px 4px 12px pink;
+    max-width: 95%;
+}
+
+.marketing .gallery-item {
+    width: 325px;
+    margin: 2%;
 }
 
 
