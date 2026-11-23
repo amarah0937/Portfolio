@@ -21,7 +21,7 @@ section h1{
     padding: 3%;
 }
 
-.gallery, .objs {
+.gallery, .objs, .marketing {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
